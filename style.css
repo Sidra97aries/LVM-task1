@@ -1,0 +1,104 @@
+
+BODY {
+  background: url(https://img.freepik.com/free-vector/gradient-monochromatic-abstract-background_52683-74302.jpg?size=626&ext=jpg&uid=R108631527&ga=GA1.2.864786167.1688336979&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header img {
+  height: 40px; 
+  margin-left: auto; 
+}
+
+#myhead {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding: 40px;
+  color: black;
+  text-align: center;
+  font-size:xx-large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+
+}
+input[type ="text"]{
+  width: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  
+}
+button{
+  padding: 10px 15px;
+  cursor: pointer;
+  width: auto;
+  margin-right: 10px;
+  justify-content: space-between;
+  
+  
+}
+.list1 {
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: rgba(184, 105, 40, 0.4);
+  margin: 50PX 400px 200px 400px;
+  padding: 100px;
+  font-size: large;
+  font-family: serif;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+
+}
+
+li .task {
+  margin-right: 10px;
+}
+
+li .task {
+  flex-grow: 1;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Times New Roman', Times, serif;
+  display:inline-flexbox;
+ background-color: white;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li+li {
+  margin-top: 5px;
+  /* Add margin between list items to create rows */
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+li .delete-button {
+  margin-right: 12px;
+  padding: 15px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+
